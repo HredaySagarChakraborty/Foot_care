@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/nazrul" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="মুনাজাত
+- কাজী নজরুল ইসলাম---সংকলিত (কাজী নজরুল ইসলাম)"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="
+আমারে সকল ক্ষুদ্রতা হতে
+          বাঁচাও প্রভু উদার।
+হে প্রভু! শেখাও - নীচতার চেয়ে
+          নীচ পাপ নাহি আর।
+"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="
+
+যদি শতেক জন্ম পাপে হই পাপী,
+     যুগ-যুগান্ত নরকেও যাপি,
+     জানি জানি প্রভু, তারও আছে ক্ষমা-
+               ক্ষমা নাহি নীচতার।।
+"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="
+ ক্ষুদ্র করো না হে প্রভু আমার
+          হৃদয়ের পরিসর,
+যেন সম ঠাঁই পায়
+          শত্রু-মিত্র-পর।
+"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="
+নিন্দা না করি ঈর্ষায় কারো
+     অন্যের সুখে সুখ পাই আরো,
+     কাঁদি তারি তরে অশেষ দুঃখী
+               ক্ষুদ্র আত্মা তার।।
+"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

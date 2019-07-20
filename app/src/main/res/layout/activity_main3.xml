@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/nazrul" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="মোরা ঝঞ্ঝার মত উদ্দ্যম
+- কাজী নজরুল ইসলাম---সংকলিত (কাজী নজরুল ইসলাম)"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="
+মোরা ঝঞ্ঝার মত উদ্দ্যম
+মোরা ঝর্ণার মত চঞ্চল,
+মোরা বিধাতার মত নির্ভয়
+মোরা প্রকৃতির মত স্বচ্ছল।।
+মোরা আকাশের মত বাঁধাহীন
+মোরা মরু সঞ্চার বেদুঈন,
+বন্ধনহীন জন্ম স্বাধীন
+চিত্তমুক্ত শতদল।।
+মোরা সিন্ধু জোঁয়ার কলকল
+মোরা পাগলা জোঁয়ার ঝরঝর।
+কল-কল-কল, ছল-ছল-ছল
+মোরা দিল খোলা খোলা প্রান্তর,
+মোরা শক্তি অটল মহীধর।
+হাসি গান শ্যাম উচ্ছল
+বৃষ্টির জল বনফল খাই-
+শয্যা শ্যামল বনতল।।
+"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

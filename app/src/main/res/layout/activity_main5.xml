@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/nazrul" />
+
+
+            <TextView
+                android:textSize="25sp"
+
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+  android:text="কান্ডারী হুশিয়ার!
+- কাজী নজরুল ইসলাম---সংকলিত (কাজী নজরুল ইসলাম)"/>
+
+
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="দুর্গম গিরি, কান্তার-মরু, দুস্তর পারাবার
+লঙ্ঘিতে হবে রাত্রি-নিশীথে, যাত্রীরা হুশিয়ার!
+          "
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text=  "
+দুলিতেছে তরি, ফুলিতেছে জল, ভুলিতেছে মাঝি পথ,
+ছিঁড়িয়াছে পাল, কে ধরিবে হাল, আছে কার হিম্মৎ?
+কে আছ জোয়ান হও আগুয়ান হাঁকিছে ভবিষ্যৎ।
+এ তুফান ভারী, দিতে হবে পাড়ি, নিতে হবে তরী পার। "
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="  তিমির রাত্রি, মাতৃমন্ত্রী সান্ত্রীরা সাবধান!
+যুগ-যুগান্ত সঞ্চিত ব্যথা ঘোষিয়াছে অভিযান।
+ফেনাইয়া উঠে বঞ্চিত বুকে পুঞ্জিত অভিমান,
+ইহাদের পথে নিতে হবে সাথে, দিতে হবে অধিকার। "
+                android:textSize="20sp"/>
+
+
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="
+অসহায় জাতি মরিছে ডুবিয়া, জানে না সন্তরন
+কান্ডারী! আজ দেখিব তোমার মাতৃমুক্তি পন।
+হিন্দু না ওরা মুসলিম? ওই জিজ্ঞাসে কোন জন?
+কান্ডারী! বল, ডুবিছে মানুষ, সন্তান মোর মার "
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="
+গিরি সংকট, ভীরু যাত্রীরা গুরু গরজায় বাজ,
+পশ্চাৎ-পথ-যাত্রীর মনে সন্দেহ জাগে আজ!
+কান্ডারী! তুমি ভুলিবে কি পথ? ত্যজিবে কি পথ-মাঝ?
+করে হানাহানি, তবু চলো টানি, নিয়াছ যে মহাভার!  "
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="  তকান্ডারী! তব সম্মুখে ঐ পলাশীর প্রান্তর,
+বাঙালীর খুনে লাল হল যেথা ক্লাইভের খঞ্জর!
+ঐ গঙ্গায় ডুবিয়াছে হায়, ভারতের দিবাকর!
+উদিবে সে রবি আমাদেরি খুনে রাঙিয়া পূনর্বার।"
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="  ফাঁসির মঞ্চে গেয়ে গেল যারা জীবনের জয়গান,
+আসি অলক্ষ্যে দাঁড়ায়েছে তারা, দিবে কোন্ বলিদান
+আজি পরীক্ষা, জাতির অথবা জাতের করিবে ত্রাণ?
+দুলিতেছে তরী, ফুলিতেছে জল, কান্ডারী হুশিয়ার! "
+                android:textSize="20sp"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

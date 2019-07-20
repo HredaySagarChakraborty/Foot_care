@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="country_name">  <item>সংকল্প</item>
+        <item>মোরা ঝঞ্ঝার মত উদ্দ্যম</item>
+        <item> মুনাজাত</item>
+        <item>তকান্ডারী হুশিয়ার!</item>
+        <item> কবি-রাণী </item>
+
+    </string-array>
+
+</resources>
